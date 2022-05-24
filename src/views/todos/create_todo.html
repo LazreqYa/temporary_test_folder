@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "fr">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-wide, initial-scale = 1.0">
+        <title>Epytodo | Create Todo</title>
+        <link rel = "stylesheet" href = "css/todos/style_create_todo.css">
+    </head>
+    <body>
+        <div class = "logo"></div>
+        <form action="/todospost" method="POST">
+            <h1>Create a new Todo</h1>
+            <div class="inputs">
+                <input type="title" name="title" placeholder="Title">
+                <input type="description" name ="description" placeholder="Description">
+                <input type="due_time" name="due_time" placeholder="Due Time">
+                <input type="id" name="id" placeholder="Id">
+            </div>
+            <div align="center">
+                <button type="submit">Create</button>
+            </div>
+        </form>
+        <h2>Copyright © Lucas Holczinger, Yanis Lazreq, Noah Le Vêve</h2>
+    </body>
+</html>
